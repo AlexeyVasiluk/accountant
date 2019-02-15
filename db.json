@@ -2,14 +2,14 @@
   "users": [
     {
       "id": 1,
-      "email": "wfm@mail.ru",
-      "password": "12345678",
-      "name": "Администратор"
+      "email": "vasiluk.o@gmail.com",
+      "password": "1234567",
+      "name": "admin"
     }
   ],
   "bill": {
     "value": 100000,
-    "currency": "RUB"
+    "currency": "UAH"
   },
   "categories": [
     {
@@ -35,7 +35,7 @@
       "amount": 1250,
       "category": 2,
       "date": "12.06.2017 19:49:02",
-      "description": "Подарили еду в гостях"
+      "description": "Подарок"
     },
     {
       "id": 2,
@@ -51,7 +51,7 @@
       "category": 2,
       "date": "17.06.2017 14:00:48",
       "id": 3,
-      "description": "Поход в окей с баллами. Бесплатная еда"
+      "description": "Бесплатная еда"
     },
     {
       "type": "outcome",
