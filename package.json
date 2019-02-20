@@ -24,14 +24,15 @@
     "@angular/router": "^7.2.4",
     "core-js": "^2.4.1",
     "rxjs": "^6.4.0",
+    "rxjs-compat": "^6.4.0",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.13.1",
     "@angular/cli": "^7.3.1",
-    "@angular/compiler-cli": "^7.2.4",
+    "@angular/compiler-cli": "^7.2.5",
     "@types/jasmine": "3.3.9",
-    "@types/node": "~11.9.4",
+    "@types/node": "^11.9.4",
     "codelyzer": "~4.5.0",
     "concurrently": "^4.1.0",
     "g": "^2.0.1",
