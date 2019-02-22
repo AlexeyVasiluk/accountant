@@ -5,6 +5,12 @@
       "email": "vasiluk.o@gmail.com",
       "password": "1234567",
       "name": "admin"
+    },
+    {
+      "email": "olvas@smile.fr",
+      "password": "1234567",
+      "name": "Alexey Vasiluk",
+      "id": 2
     }
   ],
   "bill": {
