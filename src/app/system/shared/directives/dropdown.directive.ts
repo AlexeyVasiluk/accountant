@@ -1,5 +1,12 @@
-import {Directive} from '@angular/core';
+import {Directive, HostBinding, HostListener} from '@angular/core';
 
 @Directive({
-  selector: '[]'
+  selector: '[avDropdown]'
 })
+export class DropdownDirective {
+  @HostBinding('class.open') isOpen = false;
+
+  @HostListener('click') onClick() {
+    this.isOpen = !this.isOpen;
+  }
+}
