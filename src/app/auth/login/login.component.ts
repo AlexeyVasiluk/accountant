@@ -62,13 +62,13 @@ export class LoginComponent implements OnInit {
             this.router.navigate(['/system', 'bill']);
           } else {
             this.showMessage({
-              text: 'You password is not acceptable!',
+              text: 'Введенный Пароль неверен!',
               type: 'danger'
             });
           }
         } else {
           this.showMessage({
-            text: '(This user is undefined!',
+            text: 'Пользователь с таким E-mail не найден!',
             type: 'danger'
           });
         }
