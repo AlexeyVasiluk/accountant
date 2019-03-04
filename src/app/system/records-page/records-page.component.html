@@ -4,18 +4,25 @@
   </h3>
 </div>
 
-<section class="section">
+<section class="section text-center" *ngIf="!isLoaded">
+  Loading...
+</section>
+
+<section class="section" *ngIf="isLoaded">
   <div class="row">
     <div class="col-md-6">
       <av-add-event></av-add-event>
     </div>
     <div class="col-md-6">
-      <av-add-category></av-add-category>
+      <av-add-category (onCategoryAdd)="newCategoryAdded($event)"></av-add-category>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <av-edit-category></av-edit-category>
+      <av-edit-category
+        [categories]="categories"
+        (onCategoryEdit)="categoryWasEdited($event)"
+      ></av-edit-category>
     </div>
   </div>
 </section>
