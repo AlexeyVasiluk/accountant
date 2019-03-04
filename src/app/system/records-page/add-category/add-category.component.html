@@ -3,9 +3,9 @@
     <div class="header-block">
       <h3 class="title">Добавить категорию</h3>
     </div>
-  </div>
-  <div class="card-block" (ngSubmit)="onSubmit()">
-    <form #frm="ngForm">
+   </div>
+  <div class="card-block">
+    <form #frm="ngForm" (ngSubmit)="onSubmit(frm)">
       <div
         class="form-group"
         [ngClass]="{'has-error': name.invalid && name.touched}"
@@ -47,7 +47,12 @@
         >Валидация нет ошибки
         </span>
       </div>
-      <button type="submit" class="btn btn-primary">Добавить</button>
+      <button
+        [disabled]="frm.invalid"
+        type="submit"
+        class="btn btn-primary"
+      >
+        Добавить</button>
     </form>
   </div>
 </div>
