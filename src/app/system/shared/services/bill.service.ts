@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
 import {BaseApi} from '../../../shared/core/base-api';
+import {Bill} from '../models/bill.model';
 
 @Injectable()
 export class BillService extends BaseApi {
@@ -12,6 +13,10 @@ export class BillService extends BaseApi {
 
   getBill(): Observable<any> {
     return this.get('bill');
+  }
+
+  updateBill(bill: Bill): Observable<Bill> {
+    return this.put('bill', bill);
   }
 
   getCurrency(): Observable<any> {
