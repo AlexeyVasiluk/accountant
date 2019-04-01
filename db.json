@@ -40,7 +40,7 @@
       "type": "income",
       "amount": 1250,
       "category": 2,
-      "date": "12.06.2017 19:49:02",
+      "date": "01.04.2019 19:49:02",
       "description": "Подарок"
     },
     {
@@ -48,14 +48,14 @@
       "type": "outcome",
       "amount": 1300,
       "category": 1,
-      "date": "13.06.2017 19:49:02",
+      "date": "23.03.2019 19:49:02",
       "description": "Купил посудомоечную машину"
     },
     {
       "type": "income",
       "amount": 1480,
       "category": 2,
-      "date": "17.06.2017 14:00:48",
+      "date": "17.03.2019 14:00:48",
       "id": 3,
       "description": "Бесплатная еда"
     },
@@ -63,7 +63,7 @@
       "type": "outcome",
       "amount": 2470,
       "category": 2,
-      "date": "17.06.2017 14:00:58",
+      "date": "12.03.2019 14:00:58",
       "id": 4,
       "description": "Закупка на неделю"
     },
@@ -71,7 +71,7 @@
       "type": "outcome",
       "amount": 4000,
       "category": 3,
-      "date": "10.06.2017 14:01:58",
+      "date": "10.03.2019 14:01:58",
       "id": 5,
       "description": "Заправка + проход ТО"
     },
@@ -79,7 +79,7 @@
       "type": "outcome",
       "amount": 1200,
       "category": 3,
-      "date": "20.03.2019 16:36:30",
+      "date": "24.03.2019 16:36:30",
       "description": "test",
       "id": 6
     },
@@ -87,7 +87,7 @@
       "type": "outcome",
       "amount": 3000,
       "category": 3,
-      "date": "20.03.2019 16:36:55",
+      "date": "26.03.2019 16:36:55",
       "description": "test3",
       "id": 7
     }
