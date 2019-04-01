@@ -35,6 +35,11 @@ export class LoginComponent implements OnInit {
             text: 'Now you can login!',
             type: 'success'
           });
+        } else if (params['accessDenied']) {
+          this.showMessage({
+            text: 'Для работы с системой Вам нужно залогиниться',
+            type: 'warning'
+          });
         }
       });
     this.form = new FormGroup({
