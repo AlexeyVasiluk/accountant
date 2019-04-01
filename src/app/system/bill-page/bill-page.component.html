@@ -9,7 +9,7 @@
   </div>
 </div>
 <section class="section">
-  <div class="row text-center" *ngIf="!isLoaded">Loading...</div>
+  <div class="row text-center" *ngIf="!isLoaded"><av-loader></av-loader></div>
   <div class="row" *ngIf="isLoaded">
     <av-bill-card [bill]="bill" [currency]="currency"></av-bill-card>
     <av-currency-card [currency]="currency"></av-currency-card>

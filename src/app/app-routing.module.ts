@@ -5,6 +5,8 @@ import {NotFoundComponent} from './shared/components/not-found/not-found.compone
 
 const routes: Routes = [
   {path: '', redirectTo: 'login', pathMatch: 'full'},
+  // {path: '**', redirectTo: '404'},
+  // {path: '404', component: NotFoundComponent}
   {path: '**', component: NotFoundComponent}
 ];
 
