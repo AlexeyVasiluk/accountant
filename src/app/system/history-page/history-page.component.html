@@ -9,7 +9,7 @@
   </div>
 </div>
 
-<div *ngIf="!isLoaded" class="text-center">Loading ...</div>
+<div *ngIf="!isLoaded" class="text-center"><av-loader></av-loader></div>
 <div *ngIf="isLoaded">
   <av-history-chart [data]="chartData"></av-history-chart>
 
