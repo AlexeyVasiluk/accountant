@@ -8,7 +8,6 @@ import {HttpClientModule} from '@angular/common/http';
 import {AppRoutingModule} from './app-routing.module';
 import {UsersService} from './shared/services/users.service';
 import {AuthService} from './shared/services/auth.service';
-import {SystemModule} from './system/system.module';
 import {AuthGuard} from './shared/services/auth.guard';
 import {NotFoundComponent} from './shared/components/not-found/not-found.component';
 
@@ -22,7 +21,6 @@ import {NotFoundComponent} from './shared/components/not-found/not-found.compone
     HttpClientModule,
     AuthModule,
     AppRoutingModule,
-    SystemModule,
     BrowserAnimationsModule
   ],
   providers: [UsersService, AuthService, AuthGuard],
